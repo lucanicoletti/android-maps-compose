@@ -53,9 +53,9 @@ internal class CircleNode(
 @GoogleMapComposable
 public fun Circle(
     center: LatLng,
+    radius: Double,
     clickable: Boolean = false,
-    fillColor: Color = Color.Transparent,
-    radius: Double = 0.0,
+    fillColor: Color = Color.Black,
     strokeColor: Color = Color.Black,
     strokePattern: List<PatternItem>? = null,
     strokeWidth: Float = 10f,

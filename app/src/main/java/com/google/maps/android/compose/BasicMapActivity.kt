@@ -197,9 +197,9 @@ fun GoogleMapView(
             }
             Circle(
                 center = circleCenter,
+                radius = 1000.0,
                 fillColor = MaterialTheme.colors.secondary,
                 strokeColor = MaterialTheme.colors.secondaryVariant,
-                radius = 1000.0,
             )
             content()
         }
